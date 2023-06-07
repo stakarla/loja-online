@@ -1,1 +1,13 @@
-
+@import url(“styles/header.css”);
+:root {
+  --cor-de-fundo:#FFE4B5;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+ .cabeçalho__menu-modelos{
+  width: 24px;
+  height: 24px;
+  background-image: url(“../img/Menu.svg”);
+  display: inline-block;
+ }
