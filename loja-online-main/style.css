@@ -1,0 +1,19 @@
+@import url(“styles/header.css”);
+:root {
+  --cor-de-fundo:#FFE4B5;
+  --branco: #FFFFFF;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+ .cabeçalho__menu-modelos{
+  background-color: var(--branco);
+  width: 24px;
+  height: 24px;
+  background-image: url(“../img/Menu.svg”);
+  display: inline-block;
+ }
+ .container {
+  display: flex;
+  align-items: center;
+  }
